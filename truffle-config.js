@@ -44,14 +44,12 @@ module.exports = {
     development: {
       provider: new HDWalletProvider({
         privateKeys: [
-          "0xc4f61d808b0972e6d56047e1e75a0608d618f73f69478818602488b514c60ff9",
-          "0x76d6c54cee794748b51bf6318fe9e45a829925915f5921cffd5a45e171e273fc",
-          "0x10c0cc37260ace49bf932d96782d9ac1f47d7c32f996e2339820069585d28bd4"
+          // ADD YOUR PRIVATE KEYS PROVIDED GANACHE AS STRINGS HERE
         ],
-        providerOrUrl: "ws://127.0.0.1:8545",
+        providerOrUrl: "ws://127.0.0.1:7545",
       }),
       host: "127.0.0.1",     // Localhost (default: none)
-      port: 8545,            // Standard Ethereum port (default: none)
+      port: 7545,            // Standard Ethereum port (default: none)
       network_id: "*",       // Any network (default: none)
     },
     // Another network with more advanced options...
